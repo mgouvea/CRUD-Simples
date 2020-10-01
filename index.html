@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/1c89d36bc8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>CRUD simples</title>
+  </head>
+  <body>
+    <h1 class="text-color">Lista de Tarefas</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="form-group">
+          <label class="text text-color" for="inputName">Tarefa:</label>
+          <input
+            type="text"
+            placeholder="O que temos pra hoje?"
+            class="form-control"
+            id="inputName"
+          />
+        </div>
+      </div>
+      <hr />
+
+      <h3 class="text">Minhas Tarefas</h3>
+      <div class="row">
+        <div id="names" class="col-md-6"></div>
+        <div id="names2" class="col-md-6"></div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        <a id="footerLink"></a>
+        <p id="footerDate"></p>
+      </p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="app.js"></script>
+  </body>
+</html>

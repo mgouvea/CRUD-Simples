@@ -1,0 +1,53 @@
+body {
+  background: #47b9b2;
+}
+h1 {
+  text-align: center;
+  margin: 15px 15px;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+#inputName {
+  width: 460px;
+  margin-left: 40px;
+}
+#names,
+#names2 {
+  margin-top: 20px;
+}
+
+.text {
+  margin-left: 40px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.fa-trash-alt {
+  color: #ba474e;
+  font-size: 23px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+
+.container {
+  background: #c6eae6;
+  border-radius: 15px;
+  height: 100%;
+  padding-top: 27px;
+}
+
+.jumbotron {
+  height: 10px;
+  text-align: center;
+  background-color: #47b9b2;
+  margin-bottom: 1px;
+}
+.text-color {
+  color: #ba474e;
+}
