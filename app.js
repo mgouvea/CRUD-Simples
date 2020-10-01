@@ -47,7 +47,7 @@ function activateInput() {
   inputName.focus();
 }
 
-// renderizando o lado esquerdo
+// renderizando o vetor
 function render() {
   function createDeleteButton(index) {
     function deleteButton() {
