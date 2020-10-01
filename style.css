@@ -1,5 +1,5 @@
 body {
-  background: #47b9b2;
+  background: ##e3eff8;
 }
 h1 {
   text-align: center;
@@ -36,18 +36,13 @@ li {
 }
 
 .container {
-  background: #c6eae6;
+  background: #faf8ff;
+  border: 1px solid #f5f1fe;
   border-radius: 15px;
   height: 100%;
   padding-top: 27px;
 }
 
-.jumbotron {
-  height: 10px;
-  text-align: center;
-  background-color: #47b9b2;
-  margin-bottom: 1px;
-}
 .text-color {
   color: #ba474e;
 }
